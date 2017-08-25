@@ -1,0 +1,50 @@
+html {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  /*text is centered horizontally*/
+  }
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/*Heading style*/
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+span {
+  padding: 20px 10px;
+}
+
+a {
+  text-decoration: underline;
+  color: seashell;
+}
+/*Footer Section*/
+footer {
+  margin-right: 20px;
+  text-align: left;
+  display: block;
+}
+h5 {
+  display: block;
+}
