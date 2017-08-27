@@ -1,4 +1,4 @@
-body {
+html {
   background-color: black;
   font-family: Helvetica;
   font-size: 22px;
@@ -14,6 +14,18 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+h2 {
+  padding: 10px;
+  display: block;
+  margin: 0;
+}
+h4 {
+  padding: 10px;
+  display: block;
+  margin: 0;
+}
+
 /*Heading style*/
 header {
   height: 69px;
@@ -23,6 +35,7 @@ header {
   align-items: center;
   top: 0;
   z-index: 1;
+  background-color: black;
 }
 
 .logo img {
@@ -55,9 +68,8 @@ a {
   height: 700px;
   padding-top: 70px;
 
-
 }
-#mission .content {
+.content{
   background-color: black;
   margin: auto;
   width: 1200px;
@@ -79,11 +91,18 @@ a {
   background-image: url(../resources/images/locations-background.jpg);
   height: 500px;
   padding-top: 70px;
+  display: block;
+  margin: auto;
 }
 
-.locations {
+.location {
   opacity: 1;
   background-color: black;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 20px;
+  padding: 10px;
 }
 /*Contact Section*/
 #contact {
