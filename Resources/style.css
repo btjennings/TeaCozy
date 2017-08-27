@@ -64,7 +64,7 @@ a {
 }
 
 #mission {
-  background-image: url(../resources/images/mission-background.jpg);
+  background-image: url(../Resources/images/mission-background.jpg);
   height: 700px;
   padding-top: 70px;
 
@@ -88,7 +88,7 @@ a {
   display: block;
 }
 #locations {
-  background-image: url(../resources/images/locations-background.jpg);
+  background-image: url(../Resources/images/locations-background.jpg);
   height: 500px;
   padding-top: 70px;
   display: block;
